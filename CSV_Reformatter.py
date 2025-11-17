@@ -7,7 +7,7 @@ import argparse
 # Parse the initial arguments and return arguments as an object
 # Possible args:
 #     -f <file_path>
-#      r (this does not take an actual argument, it serves as a flag only)
+#     -r (this does not take an actual argument, it serves as a flag only)
 # Example: python3 ReadCSV.py -f /my/file/path -r
 def parse_args():
     parser = argparse.ArgumentParser(description="CSV Parser")
